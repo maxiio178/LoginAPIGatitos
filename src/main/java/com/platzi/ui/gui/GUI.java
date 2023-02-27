@@ -3,9 +3,10 @@ package com.platzi.ui.gui;
 import com.platzi.cats.CatService;
 
 import javax.swing.*;
+import java.io.IOException;
 
 public class GUI {
-    public static void ShowGUI() {
+    public static void ShowGUI() throws IOException {
         int opcion_menu = -1;
         String[] bottons = {"1. ver gatos", "2. salir"};
         do {

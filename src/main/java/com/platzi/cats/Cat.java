@@ -1,24 +1,24 @@
 package com.platzi.cats;
 
 public class Cat {
-    private int id;
+    private String id;
     private String url;
-    private String apiKey;
+    private String apiKey = "live_OxGmYZyeAkBTZuKp6ZiUuNMa5EvZJcI4zSrX7u6tZh0BRQGd7BTrxyYXQr7Mpj1t";
     private String img;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public String getUrl() {
+    public  String getUrl() {
         return url;
     }
 
-    public void setUrl(String url) {
+    public  void setUrl(String url) {
         this.url = url;
     }
 
